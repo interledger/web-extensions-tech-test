@@ -9,7 +9,7 @@ _Please do not share this challenge or your solution to it._
 
 ## Challenge
 
-Write a web extension that once installed, detects all [`<link>` elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link) on the active tab and dispatches a [custom event](https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent) called `"ping"` on each of these elements. The custom event should contain a status property, which corresponds to the HTTP status that results from fetching the link href. There is no popup or UI required for completing this challenge.
+Write a web extension that once installed, detects all [`<link>` elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link) on the active tab and dispatches a [custom event](https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent) called `"ping"` on each of these elements. The custom event should contain a `status` property, which corresponds to the HTTP status that results from fetching the link `href`. There is no popup or UI required for completing this challenge.
 
 ### Constraints
 
